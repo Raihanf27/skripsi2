@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "84533969160",
+    "project_id": "sapiskripsi-2fc25",
+    "storage_bucket": "sapiskripsi-2fc25.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84533969160:android:6d04f7b3305c289e59acbd",
+        "android_client_info": {
+          "package_name": "project.capstone.percobaan_capstone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbKy3pKgJRMcrllnFgyszVP8DZO1mVAAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

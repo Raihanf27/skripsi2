@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="project.capstone.percobaan_capstone"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Akses kamera -->
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Percobaan_capstone"
+        tools:targetApi="31">
+
+        <!-- LoginActivity sebagai activity pertama yang tampil -->
+        <activity
+            android:name=".auth.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- RegisterActivity -->
+        <activity
+            android:name=".auth.RegisterActivity"
+            android:exported="true" />
+
+        <!-- MainActivity, hanya bisa dibuka setelah login -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <!-- Activity lainnya -->
+        <activity
+            android:name=".detection.FaceDetectActivity"
+            android:exported="true" />
+        <activity
+            android:name=".history.HistoryActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
