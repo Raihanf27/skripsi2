@@ -9,7 +9,7 @@ import java.io.ByteArrayOutputStream
 import java.io.IOException
 
 class CloudinaryHelper {
-    private val cloudName = "dorjl38px"
+    private val cloudName = ""
     private val uploadPreset = "your_upload_preset"
 
     fun uploadImage(bitmap: Bitmap, onSuccess: (String) -> Unit, onFailure: (Exception) -> Unit) {
