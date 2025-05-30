@@ -13,8 +13,8 @@ import java.util.*
 
 class SupabaseHelper(private val authHelper: SupabaseAuthHelper) {
 
-    private val supabaseUrl = "https://igkngrjeizfltdagtdfb.supabase.co"
-    private val supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imlna25ncmplaXpmbHRkYWd0ZGZiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDE3NzEwNzcsImV4cCI6MjA1NzM0NzA3N30.MHyxx4-rx9W3oRE6f-eCwg1gm3zy86PyXrL3JZk-EBA"
+    private val supabaseUrl = ""
+    private val supabaseKey = ""
 
     private val client = OkHttpClient()
 
